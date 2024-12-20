@@ -1,0 +1,10 @@
+Some functions/features are introduced in later versions of C++ compiler. For example, many useful string functions are only available in C++11. You can change settings of your compiler to use the appropriate version of the compiler. 
+
+In Dev C++:
+Click to Tools | Compiler Options.
+Click to Settings | Code Generation.
+Change the value of Language Standard (-std) to ISO C++11.
+
+This eventually changes the compile command to:
+
+g++ test.cpp -o -std=c++11
